@@ -40,7 +40,7 @@ const ProfileCard = ({ employee }: ProfileCardProps) => {
             />
           </div>
           {/* Taglines */}
-          <div className="space-y-0.5 mb-2 -mt-6">
+          <div className="space-y-0.5 mb-2 mt-4">
             {/* Redundant text removed */}
             <h2 className="text-xl font-bold uppercase leading-tight max-w-xs mx-auto drop-shadow-md text-shadow-sm">
               Your Trusted Partner <br /> In Climate Action
