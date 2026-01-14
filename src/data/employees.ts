@@ -7,7 +7,6 @@ import monica from "@/assets/profiles/Monica.jpeg";
 import ankomah from "@/assets/profiles/Ankomah.jpeg";
 import kobina from "@/assets/profiles/kobina.jpeg";
 
-
 export interface Employee {
   slug: string;
   firstName: string;
@@ -77,11 +76,11 @@ export const employees: Employee[] = [
     socials: NCEL_SOCIALS,
   },
 
-   {
+  {
     slug: "maspolic",
     firstName: "Maspolic",
     lastName: "Amo Yeboah",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "amoyeboahmaspolic@gmail.com",
     phone: "+233 54 770 3122",
@@ -99,7 +98,7 @@ export const employees: Employee[] = [
     slug: "edmond",
     firstName: "Edmond Peprah",
     lastName: "Ankamah",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "ankamah2017@gmail.com",
     phone: "+233557842196 / +233503813793",
@@ -117,7 +116,7 @@ export const employees: Employee[] = [
     slug: "gifty",
     firstName: "Gifty",
     lastName: "Asare Wiafe Dankwah",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "giftyasare001@gmail.com",
     phone: "+233 59 170 1346",
@@ -135,7 +134,7 @@ export const employees: Employee[] = [
     slug: "monica",
     firstName: "Monica",
     lastName: "Acheampong",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "akyeampongmonica@gmail.com",
     phone: "+233 24 974 7216",
@@ -153,7 +152,7 @@ export const employees: Employee[] = [
     slug: "ankomah",
     firstName: "Kwame",
     lastName: "Ankomah",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "kankomah10@st.knust.edu.gh",
     phone: "+233 55 571 7959",
@@ -171,7 +170,7 @@ export const employees: Employee[] = [
     slug: "kobina",
     firstName: "Kobina",
     lastName: "Akofi-Holison",
-    title: "Researcher",
+    title: "Research Scholar",
     department: "NCEL",
     email: "akofiholisonkobina@gmail.com",
     phone: "+233 54 181 2762",
