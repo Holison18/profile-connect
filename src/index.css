@@ -2,47 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 220 20% 15%;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 152 62% 32%;
+    --primary: 155 73% 42%; /* Hex #1db978 */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 152 40% 95%;
-    --secondary-foreground: 152 62% 25%;
+    --secondary: 152 20% 96%;
+    --secondary-foreground: 152 60% 30%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 20% 45%;
 
-    --accent: 152 50% 90%;
-    --accent-foreground: 152 62% 25%;
+    --accent: 152 20% 96%;
+    --accent-foreground: 152 60% 30%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 152 62% 32%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 152 58% 35%;
 
-    --radius: 0.75rem;
+    --radius: 1rem; /* More rounded */
 
     /* Custom tokens for business card */
-    --header-gradient-start: 152 62% 32%;
-    --header-gradient-end: 152 55% 25%;
-    --social-icon: 152 62% 32%;
-    --social-icon-hover: 152 62% 25%;
+    --header-gradient-start: 152 62% 28%;
+    --header-gradient-end: 222 47% 15%; /* Dark blue-ish end for depth */
+    --social-icon: 152 58% 35%;
+    --social-icon-hover: 152 58% 25%;
     --profile-border: 0 0% 100%;
-    --shadow-card: 220 20% 15%;
+    --shadow-card: 222 47% 11%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -107,7 +107,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 }
 
@@ -121,14 +121,12 @@
   }
 
   .profile-image-ring {
-    box-shadow: 
-      0 0 0 4px hsl(var(--profile-border)),
+    box-shadow: 0 0 0 4px hsl(var(--profile-border)),
       0 10px 40px -10px hsl(var(--shadow-card) / 0.3);
   }
 
   .card-shadow {
-    box-shadow: 
-      0 4px 6px -1px hsl(var(--shadow-card) / 0.05),
+    box-shadow: 0 4px 6px -1px hsl(var(--shadow-card) / 0.05),
       0 10px 30px -5px hsl(var(--shadow-card) / 0.1);
   }
 
