@@ -6,6 +6,8 @@ import gifty from "@/assets/profiles/gifty_two.jpeg";
 import monica from "@/assets/profiles/Monica.jpeg";
 import ankomah from "@/assets/profiles/Ankomah.jpeg";
 import kobina from "@/assets/profiles/kobina.jpeg";
+import nana from "@/assets/profiles/Nana.jpeg";
+import christy from "@/assets/profiles/Christabel.jpeg";
 
 export interface Employee {
   slug: string;
@@ -176,6 +178,42 @@ export const employees: Employee[] = [
     phone: "+233 54 181 2762",
     imageObjectPosition: "top",
     photoUrl: kobina,
+    company: {
+      name: "NCEL",
+      tagline: "YOUR TRUSTED PARTNER IN EXCELLENCE",
+      website: "www.ncel.knust.edu.gh",
+    },
+    socials: NCEL_SOCIALS,
+  },
+
+  {
+    slug: "nana",
+    firstName: "Joshua",
+    lastName: "kwadwo bediako",
+    title: "Communication Officer",
+    department: "NCEL",
+    email: "bediakojoshuakwadwo@gmail.com",
+    phone: "+233 55 767 0885",
+    imageObjectPosition: "top",
+    photoUrl: nana,
+    company: {
+      name: "NCEL",
+      tagline: "YOUR TRUSTED PARTNER IN EXCELLENCE",
+      website: "www.ncel.knust.edu.gh",
+    },
+    socials: NCEL_SOCIALS,
+  },
+
+  {
+    slug: "christy",
+    firstName: "Christabel",
+    lastName: "Boatemaa Kusi",
+    title: "Research Scholar",
+    department: "NCEL",
+    email: "christybhelle15@gmail.com",
+    phone: "+223 54 212 9816",
+    imageObjectPosition: "top",
+    photoUrl: christy,
     company: {
       name: "NCEL",
       tagline: "YOUR TRUSTED PARTNER IN EXCELLENCE",
