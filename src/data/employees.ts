@@ -28,8 +28,8 @@ const NCEL_SOCIALS = {
   linkedin: "https://www.linkedin.com/company/ncelknust/?viewAsMember=true",
   twitter: "https://x.com/NcelK33370",
   instagram: "https://www.instagram.com/ncelknust/",
-  facebook: "https://facebook.com/ncel.knust",
-  youtube: "https://www.facebook.com/share/17MKh6f6Hr/?mibextid=wwXIfr",
+  facebook: "https://www.facebook.com/share/17MKh6f6Hr/?mibextid=wwXIfr",
+  youtube: "https://www.youtube.com/@ncelknust",
 };
 
 export const employees: Employee[] = [
