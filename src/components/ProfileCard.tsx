@@ -121,7 +121,7 @@ const ProfileCard = ({ employee }: ProfileCardProps) => {
             {/* Secondary Save Contact Button */}
             <button
               onClick={handleSaveContact}
-              className="text-xs text-gray-400 hover:text-primary underline decoration-dotted underline-offset-4"
+              className="text-sm text-red-500 font-semibold hover:text-primary underline decoration-dotted underline-offset-4"
             >
               Download vCard (Save Contact)
             </button>
