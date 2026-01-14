@@ -92,21 +92,11 @@ const ProfileCard = ({ employee }: ProfileCardProps) => {
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="space-y-3 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            {/* Primary CTA - Save Contact */}
-            <button
-              onClick={handleSaveContact}
-              className="btn-primary-card w-full"
-            >
-              <UserPlus className="w-5 h-5" />
-              <span>Save Contact</span>
-            </button>
-
-            {/* Secondary CTA - Send Email */}
+          {/* Action Button */}
+          <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <button
               onClick={handleSendEmail}
-              className="btn-secondary-card w-full"
+              className="btn-primary-card w-full"
             >
               <Mail className="w-5 h-5" />
               <span>Send Email</span>
