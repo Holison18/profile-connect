@@ -12,7 +12,7 @@ const Index = () => {
 
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 bg-secondary/50 backdrop-blur-md border border-border/50 rounded-full px-4 py-1.5 mb-8 shadow-sm"
@@ -22,7 +22,7 @@ const Index = () => {
           </motion.div>
 
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-foreground text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-br from-foreground to-foreground/70"
@@ -32,7 +32,7 @@ const Index = () => {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-muted-foreground text-xl max-w-xl mx-auto mb-10 leading-relaxed"
@@ -41,7 +41,7 @@ const Index = () => {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex items-center justify-center gap-4"
@@ -72,7 +72,7 @@ const Index = () => {
             {employees.filter(e => e.slug === 'yen-adams').map((employee, index) => (
               <motion.div
                 key={employee.slug}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
