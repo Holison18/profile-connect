@@ -63,6 +63,7 @@ const ProfileCard = ({ employee }: ProfileCardProps) => {
             src={employee.photoUrl}
             alt={`${employee.firstName} ${employee.lastName}`}
             className="w-48 h-48 rounded-full object-cover border-[6px] border-white shadow-md bg-gray-100"
+            style={{ objectPosition: employee.imageObjectPosition || 'center' }}
           />
         </motion.div>
 

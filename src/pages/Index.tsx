@@ -48,7 +48,7 @@ const Index = () => {
           >
             <div className="flex -space-x-4">
               {employees.slice(0, 4).map((emp, i) => (
-                <img key={i} src={emp.photoUrl} alt="" className="w-10 h-10 rounded-full border-2 border-background object-cover grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+                <img key={i} src={emp.photoUrl} alt="" className="w-10 h-10 rounded-full border-2 border-background object-cover grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300" style={{ objectPosition: emp.imageObjectPosition || 'center' }} />
               ))}
             </div>
             <span className="text-sm text-muted-foreground">Join our elite network</span>
@@ -69,7 +69,7 @@ const Index = () => {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {employees.filter(e => e.slug === 'yen-adams').map((employee, index) => (
+            {employees.map((employee, index) => (
               <motion.div
                 key={employee.slug}
                 initial={{ y: 20 }}
@@ -90,6 +90,7 @@ const Index = () => {
                       src={employee.photoUrl}
                       alt={`${employee.firstName} ${employee.lastName}`}
                       className="w-16 h-16 rounded-full object-cover ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300"
+                      style={{ objectPosition: employee.imageObjectPosition || 'center' }}
                     />
                     <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-lg text-card-foreground group-hover:text-primary transition-colors truncate">
