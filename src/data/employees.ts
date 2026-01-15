@@ -208,7 +208,7 @@ export const employees: Employee[] = [
     slug: "christy",
     firstName: "Christabel",
     lastName: "Boatemaa Kusi",
-    title: "Research Scholar",
+    title: "Research Assistant",
     department: "NCEL",
     email: "christybhelle15@gmail.com",
     phone: "+223 54 212 9816",
