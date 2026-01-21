@@ -135,7 +135,7 @@ export const employees: Employee[] = [
   {
     slug: "monica",
     firstName: "Monica",
-    lastName: "Acheampong",
+    lastName: "Akyeampong",
     title: "Research Scholar",
     department: "NCEL",
     email: "akyeampongmonica@gmail.com",
