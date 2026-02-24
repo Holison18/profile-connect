@@ -1,5 +1,5 @@
 import yenAdamsImg from "@/assets/profiles/yenadams.jpeg";
-import albertImg from "@/assets/profiles/albert.jpeg";
+import albertImg from "@/assets/profiles/Albert.jpeg";
 import edward from "@/assets/profiles/ankamah.JPG.jpeg";
 import maxpolic from "@/assets/profiles/Maspolic.jpeg";
 import gifty from "@/assets/profiles/gifty.JPG.jpeg";
