@@ -7,7 +7,7 @@ import monica from "@/assets/profiles/monica.JPG.jpeg";
 import ankomah from "@/assets/profiles/ankomah.JPG.jpeg";
 import kobina from "@/assets/profiles/kobina.JPG.jpeg";
 import nana from "@/assets/profiles/nana.JPG.jpeg";
-import christy from "@/assets/profiles/Christabel.jpeg";
+import christy from "@/assets/profiles/Christabel.jpg.jpeg";
 
 export interface Employee {
   slug: string;
